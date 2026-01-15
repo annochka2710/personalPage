@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Anna Nikiforova — C++/Qt Developer</title>
-  <meta name="description" content="Junior C++/Qt developer. Open to remote internship worldwide." />
+  <meta name="description" content="Junior C++/Qt developer. Open to take a remote internship worldwide." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,7 +37,7 @@
   <main id="top" class="container">
     <section class="hero">
       <div class="hero__content">
-        <p class="pill" data-i18n="hero.pill">Open to remote internship worldwide</p>
+        <p class="pill" data-i18n="hero.pill">Open to take a remote internship worldwide</p>
         <h1 class="hero__title">
           <span data-i18n="hero.titleA">Junior</span>
           <span class="grad">C++ / Qt</span>
@@ -75,14 +75,15 @@
 
       <aside class="hero__side">
         <div class="profile">
-          <div class="avatar" aria-hidden="true"></div>
+          <div class="avatar">
+            <img src="assets/images/me.jpg" alt="photo">
+          </div>
           <div class="profile__body">
             <div class="profile__name">Anna Nikiforova</div>
             <div class="profile__role" data-i18n="side.role">C++/Qt Developer (Junior)</div>
             <div class="profile__links">
               <a class="chip" href="https://github.com/annochka2710" target="_blank" rel="noopener">GitHub</a>
-              <!-- LinkedIn URL не был дан напрямую, добавишь при необходимости -->
-              <a class="chip chip--muted" href="#" aria-disabled="true" onclick="return false;">LinkedIn</a>
+              <a class="chip chip--muted" href="www.linkedin.com/in/anna-nikiforova-b85400377" aria-disabled="true" onclick="return false;">LinkedIn</a>
             </div>
           </div>
         </div>
@@ -90,7 +91,7 @@
         <div class="note">
           <div class="note__title" data-i18n="side.noteTitle">Focus</div>
           <p class="note__text" data-i18n="side.noteText">
-            Clean C++17/20 code, Qt Widgets/QML, solid build tooling with CMake and Git.
+            C++11/17/20 code, Qt Widgets/QML, build tooling with CMake and Git.
           </p>
         </div>
       </aside>
@@ -103,7 +104,7 @@
       </p>
       <div class="grid2">
         <div class="panel">
-          <h3 data-i18n="about.whatIDoTitle">What I do</h3>
+          <h3 data-i18n="about.whatIDoTitle">What do I do?</h3>
           <ul class="list">
             <li data-i18n="about.item1">Design and implement APIs for reusable UI components in Qt.</li>
             <li data-i18n="about.item2">Work with Qt Widgets, Qt Quick/QML, and modern C++.</li>
@@ -124,6 +125,7 @@
     <section id="skills" class="section">
       <h2 data-i18n="skills.title">Tech Stack</h2>
       <div class="tags">
+        <span class="tag">C++11</span>
         <span class="tag">C++17</span>
         <span class="tag">C++20</span>
         <span class="tag">Qt 5</span>
@@ -195,7 +197,7 @@
     <section id="contact" class="section">
       <h2 data-i18n="contact.title">Contact</h2>
       <p class="lead" data-i18n="contact.lead">
-        Best way to reach me: add email / LinkedIn and a short message form.
+        Best way to reach me is via email or LinkedIn.
       </p>
 
       <div class="grid2">
@@ -208,10 +210,10 @@
               </a>
             </li>
             <li>
-              <span class="muted" data-i18n="contact.emailPlaceholder">Email: add-me@example.com</span>
+              <span class="muted" data-i18n="contact.emailPlaceholder">Email: valnik2710@yandex.ru </span>
             </li>
             <li>
-              <span class="muted" data-i18n="contact.linkedinPlaceholder">LinkedIn: add link</span>
+              <span class="muted" data-i18n="contact.linkedinPlaceholder">LinkedIn: www.linkedin.com/in/anna-nikiforova-b85400377 </span>
             </li>
           </ul>
         </div>
@@ -219,14 +221,13 @@
         <form class="panel form" onsubmit="event.preventDefault(); alert('Thanks!');">
           <label class="field">
             <span data-i18n="form.name">Name</span>
-            <input type="text" placeholder="John Doe" />
+            <input type="text" placeholder="John Smith" />
           </label>
           <label class="field">
             <span data-i18n="form.message">Message</span>
-            <textarea rows="4" placeholder="Hello Anna, we have an internship..."></textarea>
+            <textarea rows="4" placeholder="Hello Anna, we have a task ..."></textarea>
           </label>
           <button class="btn btn--primary" type="submit" data-i18n="form.send">Send</button>
-          <p class="muted small" data-i18n="form.note">Replace this demo form with real email handling if needed.</p>
         </form>
       </div>
     </section>

@@ -5,7 +5,7 @@ const dict = {
     "nav.education": "Education",
     "nav.contact": "Contact",
 
-    "hero.pill": "Open to remote internship worldwide",
+    "hero.pill": "Open to take a remote internship worldwide",
     "hero.titleA": "Junior",
     "hero.titleB": "Software Developer",
     "hero.subtitle": "Practical experience engineering and implementing APIs for custom widgets in Qt framework.",
@@ -23,7 +23,7 @@ const dict = {
 
     "side.role": "C++/Qt Developer (Junior)",
     "side.noteTitle": "Focus",
-    "side.noteText": "Clean C++17/20 code, Qt Widgets/QML, solid build tooling with CMake and Git.",
+    "side.noteText": "C++11/17/20 code, Qt Widgets/QML, build tooling with CMake and Git.",
 
     "about.title": "About",
     "about.lead": "Junior C++ developer with hands-on Qt experience building custom widgets and APIs.",
@@ -58,8 +58,8 @@ const dict = {
     "contact.title": "Contact",
     "contact.lead": "Best way to reach me: add email / LinkedIn and a short message form.",
     "contact.linksTitle": "Links",
-    "contact.emailPlaceholder": "Email: add-me@example.com",
-    "contact.linkedinPlaceholder": "LinkedIn: add link",
+    "contact.emailPlaceholder": "Email: valnik2710@yandex.ru",
+    "contact.linkedinPlaceholder": "LinkedIn: www.linkedin.com/in/anna-nikiforova-b85400377",
 
     "form.name": "Name",
     "form.message": "Message",
@@ -128,8 +128,8 @@ const dict = {
     "contact.title": "Контакты",
     "contact.lead": "Добавь email / LinkedIn и (при желании) короткую форму сообщения.",
     "contact.linksTitle": "Ссылки",
-    "contact.emailPlaceholder": "Email: add-me@example.com",
-    "contact.linkedinPlaceholder": "LinkedIn: добавьте ссылку",
+    "contact.emailPlaceholder": "Email: valnik2710@yandex.ru",
+    "contact.linkedinPlaceholder": "LinkedIn: www.linkedin.com/in/anna-nikiforova-b85400377",
 
     "form.name": "Имя",
     "form.message": "Сообщение",
@@ -198,8 +198,8 @@ const dict = {
     "contact.title": "Contact",
     "contact.lead": "Ajoutez votre email / LinkedIn et, si besoin, un petit formulaire de message.",
     "contact.linksTitle": "Liens",
-    "contact.emailPlaceholder": "Email : add-me@example.com",
-    "contact.linkedinPlaceholder": "LinkedIn : ajouter le lien",
+    "contact.emailPlaceholder": "Email : valnik2710@yandex.ru",
+    "contact.linkedinPlaceholder": "LinkedIn : www.linkedin.com/in/anna-nikiforova-b85400377",
 
     "form.name": "Nom",
     "form.message": "Message",
