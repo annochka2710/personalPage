@@ -241,3 +241,16 @@ document.querySelectorAll(".lang__btn").forEach((btn) => {
 
 document.getElementById("year").textContent = new Date().getFullYear();
 applyLang(detectLang());
+
+// Регистрация сервис-воркера
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then(registration => {
+        console.log('ServiceWorker зарегистрирован:', registration.scope);
+      })
+      .catch(error => {
+        console.log('Ошибка регистрации ServiceWorker:', error);
+      });
+  });
+}
